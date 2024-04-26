@@ -10,7 +10,7 @@
     "build": "tsup",
     "build:ts": "tsup --env.NODE_ENV production",
     "copy:assets": "cpy 'src/generated/*.json' dist/generated",
-    "dev": " pnpm dev:watch",
+    "dev": " npm dev:watch",
     "dev:watch": "tsx watch src/server.ts",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
@@ -83,7 +83,7 @@
     "tsx": "4.7.0",
     "typescript": "5.3.3"
   },
-  "packageManager": "pnpm@8.15.1",
+  "packageManager": "npm@8.15.1",
   "engines": {
     "node": ">=18.17.0"
   },
