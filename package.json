@@ -85,7 +85,7 @@
   },
   "packageManager": "npm@8.15.1",
   "engines": {
-    "node": ">=18.17.0"
+    "node": "18"
   },
   "tsup": {
     "entry": [
