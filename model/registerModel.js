@@ -18,6 +18,9 @@ const registerSchema = {
     type: String,
     required: true,
   },
+  secondary_number: {
+    type: String,
+  },
   college_name: {
     type: String,
     required: true,
@@ -30,6 +33,11 @@ const registerSchema = {
     type: String,
     default: "Front end",
     enum: ["Front end", "Python", "My SQL", "Digital Marketing"],
+  },
+  skill_level: {
+    type: String,
+    default: "Begginner",
+    enum: ["Begginner", "Intermediate", "Advanced"],
   },
   createdAt: {
     type: Date,

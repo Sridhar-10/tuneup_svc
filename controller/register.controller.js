@@ -12,7 +12,6 @@ module.exports.getStudents = async (req, res) => {
 module.exports.CreateStudents = async (req, res) => {
   try {
     const { body } = req;
-
     const new_student = await registerModel.create(body);
     if (new_student) {
       return {
