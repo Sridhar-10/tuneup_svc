@@ -34,6 +34,10 @@ const registerSchema = {
     default: "Front end",
     enum: ["Front end", "Python", "My SQL", "Digital Marketing"],
   },
+  studying_year: {
+    type: String,
+    required: true,
+  },
   skill_level: {
     type: String,
     default: "Begginner",
